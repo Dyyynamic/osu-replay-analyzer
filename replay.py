@@ -43,7 +43,7 @@ class Replay:
 
         # Beatmap data
         try:
-            self.__api_key = ""
+            self.__api_key = ""  # <-- API key goes here
             self.__url = requests.get(
                 f"https://osu.ppy.sh/api/get_beatmaps?k={self.__api_key}&h={self.beatmap_md5}"
             )

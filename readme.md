@@ -12,15 +12,21 @@ Currently only works for osu!mania.
 
 ## Running
 
+Create an API key on your [account settings page](https://osu.ppy.sh/home/account/edit#legacy-api) (legacy api) and put it into replay.py:
+
+```py
+self.__api_key = "your_api_key_here"
+```
+
 Install maniera using PIP:
 
-```
+```bash
 pip install maniera
 ```
 
 Run using Python 3:
 
-```
+```bash
 python3 main.py your_replay_file.osr
 ```
 
