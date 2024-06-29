@@ -1,0 +1,4 @@
+.*
+!/.gitignore
+__pycache__
+replay_credentials.py
